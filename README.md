@@ -2,8 +2,8 @@ Unifycore Library
 =======
 
 [![NPM Package](https://img.shields.io/npm/v/unifycore-lib.svg?style=flat-square)](https://www.npmjs.org/package/unifycore-lib)
-[![Build Status](https://img.shields.io/travis/unify-project/unifycore-lib.svg?branch=master&style=flat-square)](https://travis-ci.org/unify-project/unifycore-lib)
-[![Coverage Status](https://img.shields.io/coveralls/unify-project/unifycore-lib.svg?style=flat-square)](https://coveralls.io/r/unify-project/unifycore-lib)
+[![Build Status](https://img.shields.io/travis/unifycoin/unifycore-lib.svg?branch=master&style=flat-square)](https://travis-ci.org/unifycoin/unifycore-lib)
+[![Coverage Status](https://img.shields.io/coveralls/unifycoin/unifycore-lib.svg?style=flat-square)](https://coveralls.io/r/unifycoin/unifycore-lib)
 
 A pure and powerful JavaScript Unifycoin library.
 
@@ -32,15 +32,15 @@ To get community assistance and ask for help with implementation questions, plea
 
 ## Examples
 
-* [Generate a random address](https://github.com/unify-project/unifycore-lib/blob/master/docs/examples.md#generate-a-random-address)
-* [Generate a address from a SHA256 hash](https://github.com/unify-project/unifycore-lib/blob/master/docs/examples.md#generate-a-address-from-a-sha256-hash)
-* [Import an address via WIF](https://github.com/unify-project/unifycore-lib/blob/master/docs/examples.md#import-an-address-via-wif)
-* [Create a Transaction](https://github.com/unify-project/unifycore-lib/blob/master/docs/examples.md#create-a-transaction)
-* [Sign a Bitcoin message](https://github.com/unify-project/unifycore-lib/blob/master/docs/examples.md#sign-a-bitcoin-message)
-* [Verify a Bitcoin message](https://github.com/unify-project/unifycore-lib/blob/master/docs/examples.md#verify-a-bitcoin-message)
-* [Create an OP RETURN transaction](https://github.com/unify-project/unifycore-lib/blob/master/docs/examples.md#create-an-op-return-transaction)
-* [Create a 2-of-3 multisig P2SH address](https://github.com/unify-project/unifycore-lib/blob/master/docs/examples.md#create-a-2-of-3-multisig-p2sh-address)
-* [Spend from a 2-of-2 multisig P2SH address](https://github.com/unify-project/unifycore-lib/blob/master/docs/examples.md#spend-from-a-2-of-2-multisig-p2sh-address)
+* [Generate a random address](https://github.com/unifycoin/unifycore-lib/blob/master/docs/examples.md#generate-a-random-address)
+* [Generate a address from a SHA256 hash](https://github.com/unifycoin/unifycore-lib/blob/master/docs/examples.md#generate-a-address-from-a-sha256-hash)
+* [Import an address via WIF](https://github.com/unifycoin/unifycore-lib/blob/master/docs/examples.md#import-an-address-via-wif)
+* [Create a Transaction](https://github.com/unifycoin/unifycore-lib/blob/master/docs/examples.md#create-a-transaction)
+* [Sign a Bitcoin message](https://github.com/unifycoin/unifycore-lib/blob/master/docs/examples.md#sign-a-bitcoin-message)
+* [Verify a Bitcoin message](https://github.com/unifycoin/unifycore-lib/blob/master/docs/examples.md#verify-a-bitcoin-message)
+* [Create an OP RETURN transaction](https://github.com/unifycoin/unifycore-lib/blob/master/docs/examples.md#create-an-op-return-transaction)
+* [Create a 2-of-3 multisig P2SH address](https://github.com/unifycoin/unifycore-lib/blob/master/docs/examples.md#create-a-2-of-3-multisig-p2sh-address)
+* [Spend from a 2-of-2 multisig P2SH address](https://github.com/unifycoin/unifycore-lib/blob/master/docs/examples.md#spend-from-a-2-of-2-multisig-p2sh-address)
 
 
 ## Security
@@ -51,7 +51,7 @@ If you find a security issue, please email security@bitpay.com.
 
 ## Contributing
 
-Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/unify-project/unifycore-lib/blob/master/CONTRIBUTING.md) file.
+Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/unifycoin/unifycore-lib/blob/master/CONTRIBUTING.md) file.
 
 ## Building the Browser Bundle
 
@@ -75,7 +75,7 @@ To verify signatures, use the following PGP keys:
 ## Development & Tests
 
 ```sh
-git clone https://github.com/unify-project/unifycore-lib
+git clone https://github.com/unifycoin/unifycore-lib
 cd unifycore-lib
 npm install
 ```
@@ -91,7 +91,7 @@ or create a test coverage report (you can open `coverage/lcov-report/index.html`
 
 ## License
 
-Code released under [the MIT license](https://github.com/unify-project/unifycore-lib/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/unifycoin/unifycore-lib/blob/master/LICENSE).
 
 Copyright 2013-2017 BitPay, Inc. Bitcore is a trademark maintained by BitPay, Inc.
 Copyright 2016-2017 The Unifycoin Core Developers
