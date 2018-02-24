@@ -1,0 +1,30 @@
+{
+  "name": "unifycore-lib",
+  "main": "./unifycore-lib.min.js",
+  "version": "0.13.19",
+  "homepage": "http://unifycore.io",
+  "authors": [
+    "BitPay, Inc."
+  ],
+  "description": "A pure, powerful core for your unifycoin project.",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "unifycoin",
+    "unifycore",
+    "btc",
+    "satoshi"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "CONTRIBUTING.md",
+    "gulpfile.js",
+    "lib",
+    "index.js",
+    "karma.conf.js",
+    "npm-shrinkwrap.json",
+    "test"
+  ]
+}
