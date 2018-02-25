@@ -102,7 +102,7 @@
     "brfs": "^1.2.0",
     "chai": "^1.10.0",
     "gulp": "^3.9.1",
-    "unifycore-build": "unifycoin/unifycore-build",
+    "bitcore-build": "unifycoin/bitcore-build",
     "sinon": "^1.13.0"
   },
   "license": "MIT"

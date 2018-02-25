@@ -2,7 +2,7 @@
   "name": "bitcore-lib",
   "main": "./bitcore-lib.min.js",
   "version": "0.13.19",
-  "homepage": "http://unifycore.io",
+  "homepage": "http://bitcore.io",
   "authors": [
     "BitPay, Inc."
   ],
@@ -12,7 +12,7 @@
   ],
   "keywords": [
     "unifycoin",
-    "unifycore",
+    "bitcore",
     "btc",
     "satoshi"
   ],

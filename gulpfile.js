@@ -1,5 +1,5 @@
 
 
-var unifycoreTasks = require('unifycore-build');
+var bitcoreTasks = require('bitcore-build');
 
-unifycoreTasks('lib');
+bitcoreTasks('lib');

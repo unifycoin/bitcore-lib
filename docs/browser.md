@@ -1,7 +1,7 @@
 # Browser Builds
 Unifycore and most official submodules work in the browser, thanks to [browserify](http://browserify.org/) (some modules are not fully compatible with web browsers).
 
-The easiest and recommended way to use them, is via [Bower](http://bower.io/), a browser package manager, and get the release bundles. For example, when building an app that uses `unifycore` and `bitcore-mnemonic`, you do:
+The easiest and recommended way to use them, is via [Bower](http://bower.io/), a browser package manager, and get the release bundles. For example, when building an app that uses `bitcore` and `bitcore-mnemonic`, you do:
 
 ```sh
 bower install bitcore-lib
@@ -32,14 +32,14 @@ After this, you can include the bundled release versions in your HTML file:
 
 <head>
   <meta charset="utf-8">
-  <script src="bower_components/unifycore/bitcore-lib.min.js"></script>
+  <script src="bower_components/bitcore/bitcore-lib.min.js"></script>
   <script src="bower_components/bitcore-mnemonic/bitcore-mnemonic.min.js"></script>
 </head>
 
 <body>
 
   <script type="text/javascript">
-    var unifycore = require('bitcore-lib');
+    var bitcore = require('bitcore-lib');
     var Mnemonic = require('bitcore-mnemonic');
     // etc...
   </script>

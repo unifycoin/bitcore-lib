@@ -23,12 +23,12 @@ bower install bitcore-lib
 
 ## Documentation
 
-The complete docs are hosted here: [unifycore documentation](http://unifycore.io/guide/). There's also a [unifycore API reference](http://unifycore.io/api/) available generated from the JSDocs of the project, where you'll find low-level details on each unifycore utility.
+The complete docs are hosted here: [bitcore documentation](http://bitcore.io/guide/). There's also a [bitcore API reference](http://bitcore.io/api/) available generated from the JSDocs of the project, where you'll find low-level details on each bitcore utility.
 
-- [Read the Developer Guide](http://unifycore.io/guide/)
-- [Read the API Reference](http://unifycore.io/api/)
+- [Read the Developer Guide](http://bitcore.io/guide/)
+- [Read the API Reference](http://bitcore.io/api/)
 
-To get community assistance and ask for help with implementation questions, please use our [community forums](https://forum.unifycore.io/).
+To get community assistance and ask for help with implementation questions, please use our [community forums](https://forum.bitcore.io/).
 
 ## Examples
 
@@ -45,7 +45,7 @@ To get community assistance and ask for help with implementation questions, plea
 
 ## Security
 
-We're using Unifycore in production, as are [many others](http://unifycore.io#projects), but please use common sense when doing anything related to finances! We take no responsibility for your implementation decisions.
+We're using Unifycore in production, as are [many others](http://bitcore.io#projects), but please use common sense when doing anything related to finances! We take no responsibility for your implementation decisions.
 
 If you find a security issue, please email security@bitpay.com.
 

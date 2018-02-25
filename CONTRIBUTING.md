@@ -1,7 +1,7 @@
 Contributing to Unifycore
 =======
 
-We're working hard to make *unifycore* the most powerful JavaScript library for working with unifycoin. Our goal is to have *unifycore* be a library that can be used by anyone interested in unifycoin, and to level expertise differences with great design and documentation.
+We're working hard to make *bitcore* the most powerful JavaScript library for working with unifycoin. Our goal is to have *bitcore* be a library that can be used by anyone interested in unifycoin, and to level expertise differences with great design and documentation.
 
 ## Community
 
@@ -20,7 +20,7 @@ Ideally, please make sure to run:
 
 ## Design Guidelines
 
-These are some global design goals in unifycore that any change must adhere.
+These are some global design goals in bitcore that any change must adhere.
 
 ### D1 - Naming Matters
 
@@ -91,7 +91,7 @@ var bufferUtil = require('./util/buffer');
 
 #### G7 - Standard Methods
 
-When possible, unifycore objects should have standard methods on an instance prototype:
+When possible, bitcore objects should have standard methods on an instance prototype:
 * `toObject/toJSON` - A plain JavaScript object that `JSON.stringify` can call
 * `toString` - A string representation of the instance
 * `toBuffer` - A hex Buffer
@@ -116,7 +116,7 @@ var tx = new Transaction(data);
 
 ### Errors
 
-#### E1 - Use unifycore.Errors
+#### E1 - Use bitcore.Errors
 
 We've designed a structure for Errors to follow and are slowly migrating to it.
 
@@ -206,14 +206,14 @@ Don't write long tests, write helper functions to make them be as short and conc
 
 Inputs for tests should not be generated randomly. Also, the type and structure of outputs should be checked.
 
-#### T3 - Require 'unifycore' and Look up Classes from There
+#### T3 - Require 'bitcore' and Look up Classes from There
 
-This helps to make tests more useful as examples, and more independent of where they are placed. This also helps prevent forgetting to include all submodules in the unifycore object.
+This helps to make tests more useful as examples, and more independent of where they are placed. This also helps prevent forgetting to include all submodules in the bitcore object.
 
 DO:
 ```javascript
-var unifycore = require('../');
-var PublicKey = unifycore.PublicKey;
+var bitcore = require('../');
+var PublicKey = bitcore.PublicKey;
 ```
 DON'T:
 ```javascript
@@ -246,7 +246,7 @@ git checkout -b remove/some-file
 
 We expect pull requests to be rebased to the master branch before merging:
 ```sh
-git remote add unify-project git@github.com:unify-project/unifycore.git
+git remote add unify-project git@github.com:unify-project/bitcore.git
 git pull --rebase unify-project master
 ```
 
@@ -258,11 +258,11 @@ git push origin your_branch_name
 git push origin feature/some-new-stuff
 git push origin fix/some-bug
 ```
-Finally go to [github.com/unify-project/unifycore](https://github.com/unify-project/unifycore) in your web browser and issue a new pull request.
+Finally go to [github.com/unify-project/bitcore](https://github.com/unify-project/bitcore) in your web browser and issue a new pull request.
 
-Main contributors will review your code and possibly ask for changes before your code is pulled in to the main repository.  We'll check that all tests pass, review the coding style, and check for general code correctness. If everything is OK, we'll merge your pull request and your code will be part of unifycore.
+Main contributors will review your code and possibly ask for changes before your code is pulled in to the main repository.  We'll check that all tests pass, review the coding style, and check for general code correctness. If everything is OK, we'll merge your pull request and your code will be part of bitcore.
 
 If you have any questions feel free to post them to
-[github.com/unify-project/unifycore/issues](https://github.com/unify-project/unifycore/issues).
+[github.com/unify-project/bitcore/issues](https://github.com/unify-project/bitcore/issues).
 
 Thanks for your time and code!
