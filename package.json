@@ -1,6 +1,6 @@
 {
-  "name": "unifycore-lib",
-  "version": "0.13.22",
+  "name": "bitcore-lib",
+  "version": "0.0.1",
   "description": "A pure and powerful JavaScript Unifycoin library.",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
@@ -84,7 +84,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/unifycoin/unifycore-lib.git"
+    "url": "https://github.com/unifycoin/bitcore-lib.git"
   },
   "browser": {
     "request": "browser-request"

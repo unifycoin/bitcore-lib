@@ -1,6 +1,6 @@
 {
-  "name": "unifycore-lib",
-  "main": "./unifycore-lib.min.js",
+  "name": "bitcore-lib",
+  "main": "./bitcore-lib.min.js",
   "version": "0.13.19",
   "homepage": "http://unifycore.io",
   "authors": [

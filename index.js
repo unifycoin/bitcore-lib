@@ -6,9 +6,9 @@ var unifycore = module.exports;
 unifycore.version = 'v' + require('./package.json').version;
 unifycore.versionGuard = function(version) {
   if (version !== undefined) {
-    var message = 'More than one instance of unifycore-lib found. ' +
-      'Please make sure to require unifycore-lib and check that submodules do' +
-      ' not also include their own unifycore-lib dependency.';
+    var message = 'More than one instance of bitcore-lib found. ' +
+      'Please make sure to require bitcore-lib and check that submodules do' +
+      ' not also include their own bitcore-lib dependency.';
     throw new Error(message);
   }
 };

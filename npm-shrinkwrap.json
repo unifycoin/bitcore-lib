@@ -1,5 +1,5 @@
 {
-  "name": "unifycore-lib",
+  "name": "bitcore-lib",
   "version": "0.13.21",
   "dependencies": {
     "bn.js": {
